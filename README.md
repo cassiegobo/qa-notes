@@ -1,70 +1,77 @@
-# \# QA Notes
+# QA Notes
 
-# 
+A collection of QA documentation, templates and practical validation projects.
 
-# A collection of QA documentation, templates and practical validation projects.
+---
 
-# 
+## Purpose
 
-# \## Purpose
+This repository contains documentation created to support software testing practices, including:
 
-# 
+- Test planning
+- Test cases
+- Bug reporting
+- Release validation workflows
 
-# This repository contains documentation created to support software testing practices, including test planning, test cases, bug reporting and release validation workflows.
+---
 
-# 
+## Structure
 
-# \## Structure
+### Templates
 
-# 
+Reusable QA documentation templates:
 
-# \### Templates
+- Bug reports
+- Test cases
+- Test plans
+- Release validation reports
 
-# 
+### Projects
 
-# Reusable QA documentation templates:
+Practical applications of QA validation processes.
 
-# \- Bug reports
+---
 
-# \- Test cases
+## Enterprise Website Validation Projects
 
-# \- Test plans
+Manual QA exercises focused on enterprise web validation, including:
 
-# \- Release validation
+- Functional testing
+- Localization validation
+- Accessibility considerations
+- Release validation documentation
 
-# 
+### Validation Approach
 
-# \### Projects
+A standardized locale matrix is used whenever available to compare globalization behavior across enterprise websites.
 
-# 
+Each project aims to validate:
 
-# Practical applications of QA validation processes.
+- One main landing page
+- One product/service page
+- One additional page type (such as resources, education or documentation pages)
 
-# 
+### Locale Coverage
 
-# \## Projects
+Locales are validated based on website availability.
 
-# 
+**Preferred comparison locales:**
 
-# \### Oracle Website Validation
+- German (DE)
+- Chinese (CN)
+- Japanese (JP)
+- Portuguese (BR)
+- Arabic (AR)
 
-# 
+### Companies
+- Oracle
 
-# A manual QA exercise focused on enterprise web validation, including:
+**Future projects:**
+- AWS
+- TBD
 
-# \- Functional testing
+---
 
-# \- Localization checks
+## Background
 
-# \- Accessibility considerations
-
-# \- Release validation documentation
-
-# 
-
-# \## Background
-
-# 
-
-# Created by Cassie Gobo, Enterprise Web QA Analyst with 7+ years of experience supporting multilingual websites, AEM workflows and global releases.
-
+Created by Cassie Gobo, Enterprise Web QA Analyst with 7+ years of experience supporting multilingual websites, AEM workflows and global release validation.
