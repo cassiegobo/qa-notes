@@ -1,276 +1,178 @@
-\# Website Validation Test Plan
+# Website Validation Test Plan
 
+> Validation planning document for enterprise website quality assurance.
 
+---
 
-\## Objective
+## 1. Project Information
 
+| Field | Value |
+|-------|-------|
+| Company | |
+| Website | |
+| Page | |
+| URL | |
+| Tester | |
+| Date | |
+| Browser | |
+| Device | |
+| Screen Resolution | |
+| Status | ◐ In Progress |
 
+---
+
+## 2. Objective
 
 Describe the purpose of this validation.
 
-
-
 Example:
 
-Validate the quality of a public website through manual QA practices, focusing on functionality, localization, accessibility and release readiness.
+> Validate whether the selected page is ready for public release by verifying functionality, localization, accessibility and overall user experience.
+
+---
 
+## 3. Scope
+
+### ✓ In Scope
 
+- Functional validation
+- Navigation
+- Link validation
+- Content validation
+- Localization validation
+- Responsive behaviour
+- Accessibility-related validation
+- Release readiness
 
-\---
+### ✕ Out of Scope
 
+- Backend validation
+- API testing
+- Performance testing
+- Security testing
+- Source code review
 
+---
 
-\# Scope
+## 4. Test Types
 
+| Status | Validation |
+|--------|------------|
+| ✓ | Functional Testing |
+| ✓ | Localization Validation |
+| ✓ | Accessibility Validation |
+| ✓ | Responsive Validation |
+| ○ | Cross-browser Testing (when applicable) |
+| ○ | Regression Testing (when applicable) |
 
+---
 
-\## In Scope
+## 5. Locale Coverage
 
+Validate the following locales whenever they are available.
 
+| Locale | Status | Notes |
+|--------|--------|------|
+| EN | ○ | |
+| DE | ○ | |
+| PT-BR | ○ | |
+| JA | ○ | |
+| ZH-CN | ○ | |
+| AR | ○ | |
 
-\### Functional Validation
+### Legend
+| Symbol | Meaning |
+|--------|---------|
+| ○ | Not Tested |
+| ◐ | In Progress |
+| ✓ | Approved |
+| ! | Fix Needed |
+| ✕ | Blocked |
 
+---
 
+## 6. Validation Checklist
 
-\- Page loading
+### Functionality
 
-\- Navigation
+- [ ] Page loads successfully
+- [ ] Navigation works as expected
+- [ ] Internal links work correctly
+- [ ] External links open as expected
+- [ ] Redirects behave correctly
 
-\- Buttons and CTAs
+### Content
 
-\- Forms (when applicable)
+- [ ] Content is visible
+- [ ] Images load correctly
+- [ ] No broken components
+- [ ] No overlapping elements
+- [ ] No obvious layout issues
 
-\- Internal and external links
+### Localization
 
+- [ ] Locale is available
+- [ ] Content is localized (when applicable)
+- [ ] Language matches the selected locale
+- [ ] Date format is correct
+- [ ] Number format is correct
+- [ ] Currency format is correct
+- [ ] RTL layout behaves correctly (when applicable)
 
+### Accessibility
 
-\### Content Validation
+- [ ] Images contain alt text
+- [ ] Interactive elements have accessible labels (visual inspection)
+- [ ] Keyboard navigation is possible
+- [ ] Visible focus indicator
+- [ ] No obvious colour contrast issues
 
+### Responsive
 
+- [ ] Desktop
+- [ ] Tablet
+- [ ] Mobile
 
-\- Content visibility
+---
 
-\- Layout consistency
+## 7. Entry Criteria
 
-\- Missing components
+- ✓ Website publicly available
+- ✓ Page accessible
+- ✓ No authentication required
 
-\- Images and downloadable resources
+---
 
+## 8. Exit Criteria
 
+- ✓ Validation completed
+- ✓ Issues documented
+- ✓ Release recommendation provided
 
-\### Localization Validation
+---
 
+## 9. Release Recommendation
 
+Select one:
 
-Validation focuses on implementation rather than translation quality.
+- ✓ Approved
+- ! Fix Needed
+- ✕ Blocked
 
+---
 
+## 10. Notes
 
-Check, when available:
+Additional observations.
 
+---
 
+## 11. Related Documents
 
-\- Locale availability
+→ Test Cases
 
-\- Localized content
+→ Bug Report
 
-\- Date formats
+→ Release Validation Report
 
-\- Number formats
-
-\- Currency formats
-
-\- Locale-specific layouts
-
-\- RTL behavior (if applicable)
-
-
-
-\### Responsive Validation
-
-
-
-Recommended viewports:
-
-
-
-\- Desktop
-
-\- 1024px
-
-\- 600px
-
-
-
-Validation points:
-
-
-
-\- Layout consistency
-
-\- Component alignment
-
-\- Navigation
-
-\- Content wrapping
-
-
-
-\### Accessibility Validation
-
-
-
-Basic checks:
-
-
-
-\- Alt text
-
-\- Keyboard navigation
-
-\- Heading hierarchy
-
-\- Color contrast
-
-\- Focus indicators
-
-
-
-\---
-
-
-
-\## Out of Scope
-
-
-
-\- Backend validation
-
-\- Performance testing
-
-\- Security testing
-
-\- Translation quality review
-
-\- Database validation
-
-
-
-\---
-
-
-
-\# Test Environment
-
-
-
-\*\*Website:\*\*
-
-
-
-\*\*Pages under validation:\*\*
-
-
-
-\- Landing page
-
-\- Product / Service page
-
-\- Additional page
-
-
-
-\*\*Browser:\*\*
-
-
-
-\*\*Device:\*\*
-
-
-
-\*\*Validation Date:\*\*
-
-
-
-\---
-
-
-
-\# Test Types
-
-
-
-\- Functional Testing
-
-\- Localization Testing
-
-\- Accessibility Validation
-
-\- Responsive Testing
-
-\- Cross-browser Validation
-
-\- Release Validation
-
-
-
-\---
-
-
-
-\# Entry Criteria
-
-
-
-\- Website publicly available
-
-\- Pages accessible
-
-\- Required locales available (when applicable)
-
-
-
-\---
-
-
-
-\# Exit Criteria
-
-
-
-\- Planned scenarios executed
-
-\- Issues documented
-
-\- Release recommendation completed
-
-
-
-\---
-
-
-
-\# Deliverables
-
-
-
-\- Test Plan
-
-\- Test Cases
-
-\- Bug Reports
-
-\- Release Validation Report
-
-
-
-\---
-
-
-
-\# Notes
-
-
-
-Document any project-specific assumptions, known limitations or observations.
-
+→ Evidence / Screenshots
