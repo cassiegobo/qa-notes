@@ -4,7 +4,34 @@
 <hr>
 
 <table>
+<tr>
+  <th colspan="2">2026-07-29</th>
+</tr>
 
+<tr>
+  <th>Added</th>
+  <td>
+    <ul>
+      <li>Created the reusable QA Checklists section.</li>
+      <li>Added the Pre-Localization Technical QA checklist.</li>
+      <li>Added the Post-Localization Release QA checklist.</li>
+      <li>Added the Common Web Validation checklist.</li>
+      <li>Added documentation describing the purpose and usage of reusable QA checklists.</li>
+    </ul>
+  </td>
+</tr>
+
+<tr>
+  <th>Updated</th>
+  <td>
+    <ul>
+      <li>Updated the repository README to include the new Checklists section.</li>
+      <li>Improved repository organization by separating reusable checklists from project documentation.</li>
+      <li>Standardized Localization terminology across checklist documentation.</li>
+      <li>Expanded checklist documentation with enterprise QA context and validation guidance.</li>
+    </ul>
+  </td>
+</tr>
 <tr>
   <th colspan="2">2026-07-28</th>
 </tr>
