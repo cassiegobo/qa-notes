@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Essentials - final project</title>
+        <style> 
+    :root {     --pink: #D60270; --purple: #9B4F96;   --blue: #0038A8;  
+                --light-pink: #F5A9C8;  --light-purple: #C78BC4; --light-blue: #8FA8D8; 
+                --gray: #3d3d3d; --light-gray: #f2f2f2;--white:#ffffff;   }
+            
+        </style>
+    </head>
+    <body>
+            
+       <select name="propriedades" id="background-color">
+            <option value="var(--pink)">Pink</option>
+            <option value="var(--purple)">Purple</option>
+            <option value="var(--blue)">Blue</option>
+            <option value="var(--light-pink)">Light Pink</option>
+            <option value="var(--light-purple)">Light Purple</option>
+            <option value="var(--light-blue)">Light Blue</option>
+        </select>
+
+        <select name="propriedades" id="width">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+        </select>
+
+        <select name="propriedades" id="height">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+        </select>
+        
+        <button id="set">Set</button>
+        
+        <br><br>
+        
+        
+        <div id="modify" style="width:300px;height:30px;background-color:var(--light-pink);"></div>
+        
+<script src="project.js"></script>
+</body>
+</html>
