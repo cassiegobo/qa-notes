@@ -1,27 +1,27 @@
-# Color Stripes — JavaScript Mini Project
+# JavaScript
 
-A small JavaScript exercise created while studying JavaScript fundamentals.
+This directory documents my ongoing JavaScript studies, with a focus on building the technical foundation needed for QA automation.
 
-## What I practiced
+## Topics
 
-- JavaScript variables
-- Arrays
-- Functions
-- Counters
+- JavaScript fundamentals
+- Variables and data types
+- Arrays and functions
 - DOM manipulation
-- `document.createElement()`
-- `appendChild()`
-- `getElementById()`
-- `addEventListener()`
-- CSS custom properties
-- Basic interaction between HTML, CSS, and JavaScript
+- Events and user interaction
+- Basic web scripting
+- JavaScript for QA automation
 
-## How it works
+## Projects
 
-Clicking the colored bar creates a new horizontal stripe below it.
+### Mini Projects
 
-The color sequence is controlled by a JavaScript array, and a counter determines which color is applied to each newly created element.
+- [Color Stripes](./mini-projects/color-stripes/) — A small exercise covering arrays, functions, counters, DOM manipulation, events, and CSS custom properties.
 
-## Status
+## Learning Path
 
-Learning project — part of my ongoing JavaScript studies.
+These exercises are part of my transition from manual QA toward test automation, with JavaScript as a foundation for tools such as Playwright and API testing.
+
+---
+
+Learning in progress.
